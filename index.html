@@ -68,9 +68,6 @@
     .grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 606px));
-      grid-template-areas:
-        "card-1 card-2"
-        "card-3 card-4";
       gap: var(--gap);
       justify-content: center;
     }
@@ -85,21 +82,6 @@
 
     .card:hover {
       opacity: 0.96;
-    }
-
-    .card--1 { grid-area: card-1; }
-    .card--2 { grid-area: card-2; }
-    .card--3 { grid-area: card-3; }
-    .card--4 { grid-area: card-4; }
-
-    .card--1,
-    .card--3,
-    .card--4 {
-      aspect-ratio: 606 / 279;
-    }
-
-    .card--2 {
-      aspect-ratio: 612 / 302;
     }
 
     .card__image {
@@ -117,18 +99,9 @@
 
       .grid {
         grid-template-columns: 1fr;
-        grid-template-areas:
-          "card-1"
-          "card-2"
-          "card-3"
-          "card-4";
       }
 
-      .card,
-      .card--1,
-      .card--2,
-      .card--3,
-      .card--4 {
+      .card {
         aspect-ratio: 328 / 151;
       }
     }
@@ -142,8 +115,8 @@
     </header>
     <section class="grid" aria-label="Links principais">
       <a
-        class="card card--1"
-        href="#"
+        class="card"
+        href="https://chat.whatsapp.com/JomlmjXHcC49ldc6Ulwjsm?s=cl&p=i&ilr=0"
         target="_blank"
         rel="nofollow noreferrer"
       >
@@ -151,8 +124,8 @@
       </a>
 
       <a
-        class="card card--2"
-        href="#"
+        class="card"
+        href="https://www.ybera.com?parceiro=85766"
         target="_blank"
         rel="nofollow noreferrer"
       >
@@ -160,8 +133,8 @@
       </a>
 
       <a
-        class="card card--3"
-        href="#"
+        class="card"
+        href="https://collshp.com/dicasdavitoriaa?view=storefront"
         target="_blank"
         rel="nofollow noreferrer"
       >
@@ -169,8 +142,8 @@
       </a>
 
       <a
-        class="card card--4"
-        href="#"
+        class="card"
+        href="https://kiwify.app/zH1hsdp?afid=CeePJOsS"
         target="_blank"
         rel="nofollow noreferrer"
       >
